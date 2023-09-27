@@ -21,10 +21,10 @@
   <div class="sessao-produtos">
     <div class="container">
       <!-- class do bootstrap -->
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center"> <!-- Class do bootstrap -->
 
         <!-- Produto 1 -->
-        <div class="col-md-4">
+        <div class="col-md-4"> <!-- Class do bootstrap -->
           <div class="box-produto">
             <div class="prod-header"></div>
             <div class="descricao">
@@ -34,12 +34,13 @@
               <p class="texto"><i class="fa fa-times"> Opção Número #1</i></p>
               <p class="texto"><i class="fa fa-times"> Opção Número #2</i></p>
             </div>
-            <button>Reservar</button>
+            <button type="button">Reservar</button>
           </div>
         </div>
+        <!-- Fim do produto 1 -->
 
         <!-- Produto 2 -->
-        <div class="col-md-4">
+        <div class="col-md-4"> <!-- Class do bootstrap -->
           <div class="box-produto">
             <div class="prod-header"></div>
             <div class="descricao">
@@ -49,12 +50,13 @@
               <p class="texto"><i class="fa fa-check"> Opção Número #1</i></p>
               <p class="texto"><i class="fa fa-check"> Opção Número #2</i></p>
             </div>
-            <button>Reservar</button>
+            <button type="button">Reservar</button>
           </div>
         </div>
+        <!-- Fim do produto 2 -->
 
         <!-- Produto 3 -->
-        <div class="col-md-4">
+        <div class="col-md-4"> <!-- Class do bootstrap -->
           <div class="box-produto">
             <div class="prod-header"></div>
             <div class="descrição">
@@ -64,18 +66,29 @@
               <p class="texto"><i class="fa fa-check"> Opção Número #1</i></p>
               <p class="texto"><i class="fa fa-times"> Opção Número #2</i></p>
             </div>
-            <button>Reservar</button>
+            <button type="button">Reservar</button>
           </div>
         </div>
+        <!-- Fim do produto 3-->
 
+        <!-- Formulario de envio de reserva -->
         <div id="formulario">
           <div class="formulario-conteudo">
-            
+            <input class="modal-body"> <!-- Class do bootstrap -->
+            <span class="fechar">&times</span>
+            <label>Reservar item selecionado</label>
+            <input type="email" class="form-control" aria-describedby="email"
+              placeholder="Seu e-mail ou telefone celular"></input>
+          </div>
+          <div class="model-footer"> <!-- CLass do bootstrap -->
+            <button id="enviar" type="button" class="btn btn-primary">Enviar</button>
           </div>
         </div>
-
       </div>
+      <!-- Fim do formulario -->
+
     </div>
+  </div>
   </div>
 </body>
 
